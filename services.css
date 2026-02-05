@@ -1,0 +1,70 @@
+/* services.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.service-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.service-item h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .service-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-item {
+        margin: 10px 0;
+    }
+}
